@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A939D1E11EE0495D002EB629 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A939D1D51EE0495D002EB629 /* main.m */; };
+		A939D1E31EE0495D002EB629 /* TestAnimationIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A939D1D81EE0495D002EB629 /* TestAnimationIcon.m */; };
+		A939D1E41EE0495D002EB629 /* TestRMHideBarOnSwipe.m in Sources */ = {isa = PBXBuildFile; fileRef = A939D1DA1EE0495D002EB629 /* TestRMHideBarOnSwipe.m */; };
+		A939D1E51EE0495D002EB629 /* TestRMMultipleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A939D1DC1EE0495D002EB629 /* TestRMMultipleHeaderView.m */; };
+		A939D1E61EE0495D002EB629 /* TestRMPullDown.m in Sources */ = {isa = PBXBuildFile; fileRef = A939D1DE1EE0495D002EB629 /* TestRMPullDown.m */; };
+		A939D1E71EE0495D002EB629 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A939D1E01EE0495D002EB629 /* ViewController.m */; };
+		A939D1EC1EE04969002EB629 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A939D1E91EE04969002EB629 /* AppDelegate.m */; };
+		A939D1ED1EE04969002EB629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A939D1EA1EE04969002EB629 /* Assets.xcassets */; };
+		A939D1EE1EE04969002EB629 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A939D1EB1EE04969002EB629 /* Base.lproj */; };
+		A939D1F71EE04A77002EB629 /* RMAnimationIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A939D1F01EE04A77002EB629 /* RMAnimationIconViewController.m */; };
+		A939D1F81EE04A77002EB629 /* RMHideBarOnSwipeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A939D1F21EE04A77002EB629 /* RMHideBarOnSwipeTableViewController.m */; };
+		A939D1F91EE04A77002EB629 /* RMMultipleHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A939D1F41EE04A77002EB629 /* RMMultipleHeaderViewController.m */; };
+		A939D1FA1EE04A77002EB629 /* RMPullDownTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A939D1F61EE04A77002EB629 /* RMPullDownTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A939D1BB1EE0485F002EB629 /* RMTableViewHeaderAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMTableViewHeaderAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A939D1CF1EE0485F002EB629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A939D1D51EE0495D002EB629 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A939D1D71EE0495D002EB629 /* TestAnimationIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAnimationIcon.h; sourceTree = "<group>"; };
+		A939D1D81EE0495D002EB629 /* TestAnimationIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAnimationIcon.m; sourceTree = "<group>"; };
+		A939D1D91EE0495D002EB629 /* TestRMHideBarOnSwipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRMHideBarOnSwipe.h; sourceTree = "<group>"; };
+		A939D1DA1EE0495D002EB629 /* TestRMHideBarOnSwipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRMHideBarOnSwipe.m; sourceTree = "<group>"; };
+		A939D1DB1EE0495D002EB629 /* TestRMMultipleHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRMMultipleHeaderView.h; sourceTree = "<group>"; };
+		A939D1DC1EE0495D002EB629 /* TestRMMultipleHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRMMultipleHeaderView.m; sourceTree = "<group>"; };
+		A939D1DD1EE0495D002EB629 /* TestRMPullDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRMPullDown.h; sourceTree = "<group>"; };
+		A939D1DE1EE0495D002EB629 /* TestRMPullDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRMPullDown.m; sourceTree = "<group>"; };
+		A939D1DF1EE0495D002EB629 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A939D1E01EE0495D002EB629 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A939D1E81EE04969002EB629 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A939D1E91EE04969002EB629 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A939D1EA1EE04969002EB629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A939D1EB1EE04969002EB629 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		A939D1EF1EE04A77002EB629 /* RMAnimationIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAnimationIconViewController.h; sourceTree = "<group>"; };
+		A939D1F01EE04A77002EB629 /* RMAnimationIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAnimationIconViewController.m; sourceTree = "<group>"; };
+		A939D1F11EE04A77002EB629 /* RMHideBarOnSwipeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMHideBarOnSwipeTableViewController.h; sourceTree = "<group>"; };
+		A939D1F21EE04A77002EB629 /* RMHideBarOnSwipeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMHideBarOnSwipeTableViewController.m; sourceTree = "<group>"; };
+		A939D1F31EE04A77002EB629 /* RMMultipleHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMMultipleHeaderViewController.h; sourceTree = "<group>"; };
+		A939D1F41EE04A77002EB629 /* RMMultipleHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMMultipleHeaderViewController.m; sourceTree = "<group>"; };
+		A939D1F51EE04A77002EB629 /* RMPullDownTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPullDownTableViewController.h; sourceTree = "<group>"; };
+		A939D1F61EE04A77002EB629 /* RMPullDownTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPullDownTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A939D1B81EE0485F002EB629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A939D1B21EE0485F002EB629 = {
+			isa = PBXGroup;
+			children = (
+				A939D1BD1EE0485F002EB629 /* RMTableViewHeaderAnimation */,
+				A939D1BC1EE0485F002EB629 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A939D1BC1EE0485F002EB629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A939D1BB1EE0485F002EB629 /* RMTableViewHeaderAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A939D1BD1EE0485F002EB629 /* RMTableViewHeaderAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A939D1FB1EE04AB9002EB629 /* SourceFile */,
+				A939D1E81EE04969002EB629 /* AppDelegate.h */,
+				A939D1E91EE04969002EB629 /* AppDelegate.m */,
+				A939D1EA1EE04969002EB629 /* Assets.xcassets */,
+				A939D1EB1EE04969002EB629 /* Base.lproj */,
+				A939D1D71EE0495D002EB629 /* TestAnimationIcon.h */,
+				A939D1D81EE0495D002EB629 /* TestAnimationIcon.m */,
+				A939D1D91EE0495D002EB629 /* TestRMHideBarOnSwipe.h */,
+				A939D1DA1EE0495D002EB629 /* TestRMHideBarOnSwipe.m */,
+				A939D1DB1EE0495D002EB629 /* TestRMMultipleHeaderView.h */,
+				A939D1DC1EE0495D002EB629 /* TestRMMultipleHeaderView.m */,
+				A939D1DD1EE0495D002EB629 /* TestRMPullDown.h */,
+				A939D1DE1EE0495D002EB629 /* TestRMPullDown.m */,
+				A939D1DF1EE0495D002EB629 /* ViewController.h */,
+				A939D1E01EE0495D002EB629 /* ViewController.m */,
+				A939D1CF1EE0485F002EB629 /* Info.plist */,
+				A939D1BE1EE0485F002EB629 /* Supporting Files */,
+			);
+			path = RMTableViewHeaderAnimation;
+			sourceTree = "<group>";
+		};
+		A939D1BE1EE0485F002EB629 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A939D1D51EE0495D002EB629 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A939D1FB1EE04AB9002EB629 /* SourceFile */ = {
+			isa = PBXGroup;
+			children = (
+				A939D1EF1EE04A77002EB629 /* RMAnimationIconViewController.h */,
+				A939D1F01EE04A77002EB629 /* RMAnimationIconViewController.m */,
+				A939D1F11EE04A77002EB629 /* RMHideBarOnSwipeTableViewController.h */,
+				A939D1F21EE04A77002EB629 /* RMHideBarOnSwipeTableViewController.m */,
+				A939D1F31EE04A77002EB629 /* RMMultipleHeaderViewController.h */,
+				A939D1F41EE04A77002EB629 /* RMMultipleHeaderViewController.m */,
+				A939D1F51EE04A77002EB629 /* RMPullDownTableViewController.h */,
+				A939D1F61EE04A77002EB629 /* RMPullDownTableViewController.m */,
+			);
+			name = SourceFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A939D1BA1EE0485F002EB629 /* RMTableViewHeaderAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A939D1D21EE0485F002EB629 /* Build configuration list for PBXNativeTarget "RMTableViewHeaderAnimation" */;
+			buildPhases = (
+				A939D1B71EE0485F002EB629 /* Sources */,
+				A939D1B81EE0485F002EB629 /* Frameworks */,
+				A939D1B91EE0485F002EB629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMTableViewHeaderAnimation;
+			productName = RMTableViewHeaderAnimation;
+			productReference = A939D1BB1EE0485F002EB629 /* RMTableViewHeaderAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A939D1B31EE0485F002EB629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = renming;
+				TargetAttributes = {
+					A939D1BA1EE0485F002EB629 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A6268BC9MN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A939D1B61EE0485F002EB629 /* Build configuration list for PBXProject "RMTableViewHeaderAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A939D1B21EE0485F002EB629;
+			productRefGroup = A939D1BC1EE0485F002EB629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A939D1BA1EE0485F002EB629 /* RMTableViewHeaderAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A939D1B91EE0485F002EB629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A939D1ED1EE04969002EB629 /* Assets.xcassets in Resources */,
+				A939D1EE1EE04969002EB629 /* Base.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A939D1B71EE0485F002EB629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A939D1E71EE0495D002EB629 /* ViewController.m in Sources */,
+				A939D1F71EE04A77002EB629 /* RMAnimationIconViewController.m in Sources */,
+				A939D1FA1EE04A77002EB629 /* RMPullDownTableViewController.m in Sources */,
+				A939D1E51EE0495D002EB629 /* TestRMMultipleHeaderView.m in Sources */,
+				A939D1E41EE0495D002EB629 /* TestRMHideBarOnSwipe.m in Sources */,
+				A939D1E11EE0495D002EB629 /* main.m in Sources */,
+				A939D1E61EE0495D002EB629 /* TestRMPullDown.m in Sources */,
+				A939D1F91EE04A77002EB629 /* RMMultipleHeaderViewController.m in Sources */,
+				A939D1E31EE0495D002EB629 /* TestAnimationIcon.m in Sources */,
+				A939D1F81EE04A77002EB629 /* RMHideBarOnSwipeTableViewController.m in Sources */,
+				A939D1EC1EE04969002EB629 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A939D1D01EE0485F002EB629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A939D1D11EE0485F002EB629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A939D1D31EE0485F002EB629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6268BC9MN;
+				INFOPLIST_FILE = RMTableViewHeaderAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Watson.RMTableViewHeaderAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A939D1D41EE0485F002EB629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6268BC9MN;
+				INFOPLIST_FILE = RMTableViewHeaderAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Watson.RMTableViewHeaderAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A939D1B61EE0485F002EB629 /* Build configuration list for PBXProject "RMTableViewHeaderAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A939D1D01EE0485F002EB629 /* Debug */,
+				A939D1D11EE0485F002EB629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A939D1D21EE0485F002EB629 /* Build configuration list for PBXNativeTarget "RMTableViewHeaderAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A939D1D31EE0485F002EB629 /* Debug */,
+				A939D1D41EE0485F002EB629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A939D1B31EE0485F002EB629 /* Project object */;
+}
