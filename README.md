@@ -1,5 +1,6 @@
 # RMTableViewHeaderAnimation
 some animation about tableViewHeader 一些关于tableView头部与尾部的动画效果，已封装成自定义类，引用非常简单， 主要有四种表头表尾动态效果： 
+
 一、下拉放大tableView表头效果，只需继承"RMPullDownTableViewController"，且在“initWithHeaderViewName...andHeaderHeight”方法中设置表头图片名字 及 表头高度 即可； 
 
 二、tableView向上滑动时，动态隐藏navigationBar 及 tabBar,向下滑动时，动态显示navigationBar 及 tabBar，只需继承自"RMHideBarOnSwipeTableViewController"即可； 
